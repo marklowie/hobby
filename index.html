@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Your Website</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+		
+		}
+		header {
+			background-color: #333;
+			color: white;
+			padding: 20px;
+			text-align: center;
+		}
+		nav {
+			background-color: #4CAF50;
+			color: white;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px;
+			flex-wrap: wrap;
+		}
+		nav a {
+			color: white;
+			text-decoration: none;
+			padding: 10px;
+			border-radius: 5px;
+		}
+		nav a:hover {
+			background-color: white;
+			color: #4CAF50;
+		}
+		section {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			padding: 20px;
+		}
+		section div {
+			flex: 1;
+			margin: 10px;
+			background-color: #f2f2f2;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+		}
+		footer {
+			background-color: #333;
+			color: white;
+			padding: 20px;
+			text-align: center;
+		}
+		@media only screen and (max-width: 600px) {
+			nav a {
+				flex-basis: 100%;
+				text-align: center;
+			}
+			section {
+				flex-direction: column;
+			}
+			section div {
+				margin: 10px 0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>My Website</h1>
+		<p>Welcome to my website!</p>
+	</header>
+	<nav>
+		<a href="home/home.html">Home</a>
+		<a href="about/about.html">About</a>
+		<a href="#">My Hobby</a>
+		<a href="#">Contact</a>
+	</nav>
+	<section>
+		<div>
+			<h2>About Us</h2>
+			<p>Im just a simple junior web developer</p>
+		</div>
+		<div>
+			<h2>Our Services</h2>
+			<ul>
+				<li>Web design</li>
+				<li>Web development</li>
+				<li>SEO optimization</li>
+				<li>Content creation</li>
+			</ul>
+		</div>
+		<div>
+			<h2>Contact Us</h2>
+			<p>Email: marklowieved@gmail.com</p>
+			<p>Phone: 09168206616</p>
+			<p>Address: 28-A,Tagum City, Philippines</p>
+		</div>
+	</section>
+	<footer>
+		<p>&copy; 2023 My Website
